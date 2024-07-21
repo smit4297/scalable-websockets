@@ -1,6 +1,6 @@
 Sure, here's a `README.md` file that includes the necessary setup and instructions to run your WebSocket server with Redis:
 
-```markdown
+
 # WebSocket Server with Redis Pub/Sub
 
 This project is a WebSocket server that scales using Redis Pub/Sub. It enables clients to subscribe to and send messages in different rooms. The Redis Pub/Sub mechanism ensures that messages are distributed across multiple WebSocket server instances.
@@ -38,7 +38,7 @@ docker run -p 6379:6379 redis
 1. Start the WebSocket server:
 
    ```bash
-   node server.js
+   node run dev
    ```
 
    This will start the server on port 8080.
